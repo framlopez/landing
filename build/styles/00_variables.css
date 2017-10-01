@@ -1,0 +1,18 @@
+:root {
+  /* colors variables */
+  --base: #767676;
+  --baseLight: #fafafa;
+  --baseDark: #444;
+  --palette1: '';
+  --palette2: '';
+  --palette3: '';
+  --palette4: '';
+  --palette5: '';
+}
+
+@custom-media --small-screen (max-width: 600px);
+@custom-media --small-screen-up (min-width: 601px);
+@custom-media --medium-screen (max-width: 992px);
+@custom-media --medium-screen-up (min-width: 993px);
+@custom-media --large-screen (max-width: 1200px);
+@custom-media --large-screen-up (min-width: 1201px);

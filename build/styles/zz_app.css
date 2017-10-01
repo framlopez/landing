@@ -1,0 +1,33 @@
+section#intro {
+  & > .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  & > .background-dark {
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 64px);
+    background-image: url(../images/background-dark.png);
+    background-repeat: repeat;
+    z-index: 2;
+  }
+}
+
+.card > .card-image {
+  padding: 20px 20px 0;
+}
+
+.card-content-title {
+  margin: 0 0 20px;
+  height: 64px;
+}
+
+.headerCourse-image {
+  padding: 60px 0;
+}

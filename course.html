@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--
+      {
+        $nombreEmpresa: "",
+        $descripcionEmpresa: "",
+        $palabrasClave: "escuela de programacion, cursos, bootcamp, coding school, full stack, front end, back end, programador, desarrollador web"
+      }
+    -->
+    <title>$nombreEmpresa</title>
+    <!-- Meta Data -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Language" content="es" />
+    <meta name="description" content="$descripcionEmpresa" />
+    <meta name="keywords" content="$palabrasClave" />
+    <!-- Favicon -->
+    <link href="./public/image/favicon.ico" rel="shortcut icon" type="image/png" />
+    <!-- App - CSS -->
+    <link rel="stylesheet" type="text/css" href="./public/styles/app.min.css">
+    <!-- App - JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/3.4.0/es5-shim.min.js"></script>
+    <script src="https://www.promisejs.org/polyfills/promise-6.1.0.js"></script>
+    <script type="text/javascript" src="./public/scripts/app.min.js"></script>
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+
+<body>
+    <!-- Titulo del producto -->
+    <h1 class="hide">$nombreEmpresa</h1>
+    <!-- Encabezado del sitio -->
+    <div class="navbar-fixed">
+      <nav class="teal">
+        <div class="nav-wrapper container">
+          <a href="index.html" class="brand-logo">Logo</a>
+          <ul class="right hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="courses">Cursos<i class="material-icons right">arrow_drop_down</i></a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="careers">Carreras<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Dropdown Structure -->
+    <ul id="courses" class="dropdown-content">
+      <li><a href="#!">Desarrollo Front End</a></li>
+      <li><a href="#!">Desarrollo Back End</a></li>
+      <li><a href="#!">Visualización de datos</a></li>
+    </ul>
+    <!-- Dropdown Structure -->
+    <ul id="careers" class="dropdown-content">
+      <li><a href="#!">Desarrollo Full Stack</a></li>
+      <li><a href="#!">Experto en visualizaciones</a></li>
+    </ul>
+    <!-- Contenido del sitio -->
+    <div id="app">
+      <section id="headerCourse" class="red white-text">
+        <div class="container">
+          <div class="flex flex-justify-between">
+            <div class="headerCourse-content">
+              <small>Carrera de</small>
+              <h2>Desarrollo Full Stack</h2>
+              <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a class="waves-effect right btn white grey-text text-darken-4">¡Inscribirse ahora!</a>
+              <a class="right btn-flat white-text"><i class="material-icons left">file_download</i>Descargar programa</a>
+            </div>
+            <div class="headerCourse-image">
+              <img src="./public/images/course-front.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="content">
+        <div class="container">
+          <h2>HABILIDADES Y TECNOLOGÍAS QUE TRABAJARÁS DURANTE EL PROGRAMA</h2>
+          <div class="">
+            <div class="row">
+              <div class="col s6">
+                <div class="col s12">
+                  FUNDAMENTOS DE PROGRAMACIÓN
+                </div>
+                <div class="col s12">
+                  Dimensionar y planificar tu escenario de trabajo.
+                </div>
+              </div>
+              <div class="col s6">
+                <div class="col s12">
+                  Entorno de desarrollo
+                </div>
+                <div class="col s12">
+                  Rápidamente aprendé a usar y configurar las herramientas y aplicaciones que un programador necesita para trabajar eficientemente.
+                </div>
+                <div class="col s12">
+                  Fundamentos de programación
+                </div>
+                <div class="col s12">
+                  Aprendé los fundamentos de la programación orientada a objetos y estructuras de datos.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s6">
+                <div class="col s12">
+                  FRONT-END
+                </div>
+                <div class="col s12">
+                  Crear entornos atractivos, dinámicos e inteligentes.
+                </div>
+              </div>
+              <div class="col s6">
+                <div class="col s12">
+                  HTML Y CSS
+                </div>
+                <div class="col s12">
+                  Aprendé a darle estilo y diseño a tu aplicación (HTML5, CSS, CSS3).
+                </div>
+                <div class="col s12">
+                  Javascript
+                </div>
+                <div class="col s12">
+                  Programá con un lenguaje fundamental para la experiencia del usuario que funciona tanto del lado del servidor como del cliente.
+                </div>
+                <div class="col s12">
+                  Librerías de Javascript
+                </div>
+                <div class="col s12">
+                  Construí un front-end dinámico usando las librerías de Javascript más utilizadas.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s6">
+                <div class="col s12">
+                  BACK-END
+                </div>
+                <div class="col s12">
+                  Desarrollar los procesos y soporte de tu front-end.
+                </div>
+              </div>
+              <div class="col s6">
+                <div class="col s12">
+                  PHP
+                </div>
+                <div class="col s12">
+                  Dominá el lenguaje PHP programando seriamente en objetos.
+                </div>
+                <div class="col s12">
+                  Base de Datos
+                </div>
+                <div class="col s12">
+                  Trabajá y experimentá con bases de datos.
+                </div>
+                <div class="col s12">
+                  APIs
+                </div>
+                <div class="col s12">
+                  Diseñá tus propias APIs o integrá APIs de terceros.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s6">
+                <div class="col s12">
+                  METODOLOGÍAS Y TRABAJO EN EQUIPO
+                </div>
+                <div class="col s12">
+                  Aprendé a trabajar en un entorno colaborativo.
+                </div>
+              </div>
+              <div class="col s6">
+                <div class="col s12">
+                  Trabajo Colaborativo
+                </div>
+                <div class="col s12">
+                  Trabajá en equipo en las distintas etapas de desarrollo, para desarrollar desde cero, mantener, cambiar o testear las aplicaciones.
+                </div>
+                <div class="col s12">
+                  Control de Versiones
+                </div>
+                <div class="col s12">
+                  Llevá un registro claro y eficiente del proceso de desarrollo de tu aplicación utilizando GitHub.
+                </div>
+                <div class="col s12">
+                  Metodologías
+                </div>
+                <div class="col s12">
+                  Aprendé a trabajar utilizando metodologías agiles como SCRUM.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Pie del sitio -->
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer Content</h5>
+            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
